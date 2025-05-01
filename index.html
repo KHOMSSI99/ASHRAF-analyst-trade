@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashraf Analyst Trade</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Ashraf Analyst Trade</div>
+    <div class="clocks">
+      <span id="casablanca"></span>
+      <span id="ct"></span>
+      <span id="tokyo"></span>
+      <span id="paris"></span>
+    </div>
+    <div class="language-toggle">
+      <button onclick="setLanguage('ar')">AR</button>
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li onclick="navigateTo('home')">الرئيسية</li>
+      <li onclick="navigateTo('consistency')">الاتساق</li>
+      <li onclick="navigateTo('indicators')">المؤشرات</li>
+      <li onclick="navigateTo('futures')">العقود الآجلة</li>
+      <li onclick="navigateTo('calculator')">الحاسبة</li>
+      <li onclick="navigateTo('notes')">ملاحظات</li>
+      <li onclick="navigateTo('candles')">الشموع</li>
+    </ul>
+  </nav>
+
+  <main id="content">
+    <h1>مرحبا بك في Ashraf Analyst Trade</h1>
+    <p>تطبيق يساعدك على تنظيم تداولاتك وتحقيق الاتساق.</p>
+    <div id="quote-box">
+      <blockquote>"Plan your trade and trade your plan." - Mark Douglas</blockquote>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
